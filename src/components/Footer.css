@@ -1,0 +1,29 @@
+.Footer  {
+  position: relative;
+  z-index: 1;
+}
+  
+  Footer:before,
+  Footer:after {
+    background: #336699;
+    content: '';
+    display: block;
+    height: 150%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+  }
+
+  Footer:before {
+    height: 100%;
+    transform: skewY(4deg);
+    transform-origin: 0% 0 0 0;
+  }
+  
+  Footer:after {
+    top: 0;
+    height: 170%;
+    transform: skewY(0deg);
+  }

@@ -1,0 +1,15 @@
+{
+  "extends": ["react-native"],
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "max-len": ["error", {"code": 80}],
+    "indent": ["error", 2]
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}

@@ -1,0 +1,25 @@
+.primary {
+    background: #3499CC;
+}
+
+title {
+    font-size: larger;
+    color: white;
+}
+
+.navbar-header {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+  }
+
+.button-color {
+    background-color: orangered;
+}
+
+.background{
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;              /* optional, center the image */
+}
